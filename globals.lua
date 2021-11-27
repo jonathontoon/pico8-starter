@@ -30,3 +30,12 @@ color = {
     pink = 14,
     light_peach = 15 
 }
+
+screen = {
+    width = 128,
+    height = 128,
+    center = {
+        x = 64,
+        y = 64
+    }
+}
