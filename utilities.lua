@@ -2,6 +2,36 @@
     utilities
 ]]--
 
+-- simpler draw stroked rect
+function rect_stroke(x, y, w, h, c)
+	rect(x, y, x + w, y + h, c)
+end
+
+-- simpler draw filled rect
+function rect_fill(x, y, w, h, c)
+	rectfill(x, y, x + w, y + h, c)
+end
+
+-- simpler draw filled circ
+function circle_fill(x, y, r, c)
+	circfill(x, y, r, c)
+end
+
+-- simpler draw stroke circ
+function circle_stroke(x, y, r, c)
+	circ(x, y, r, c)
+end
+
+-- simpler draw filled oval
+function oval_fill(x, y, w, h, c)
+	ovalfill(x, y, x + w, y + h, c)
+end
+
+-- simpler draw stroke circ
+function oval_stroke(x, y, w, h, c)
+	oval(x, y, x + w, y + h, c)
+end
+
 -- range(start)             returns an iterator from 1 to a (step = 1)
 -- range(start, stop)       returns an iterator from a to b (step = 1)
 -- range(start, stop, step) returns an iterator from a to b, counting by step.
