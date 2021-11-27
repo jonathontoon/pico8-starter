@@ -24,6 +24,11 @@ function range(i, to, inc)
    return function () if i == to then return nil end i = i + inc return i, i end 
 end
 
+-- return a random integer between two values
+function rnd_range(min, max)
+   return flr(rnd() * (max - min + 1)) + min
+end
+
 -- converts anything to string, even nested tables
 function to_string(any)
     if (type(any)~="table") return tostr(any)
