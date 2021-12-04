@@ -28,7 +28,23 @@ color = {
     blue = 12,
     lavender = 13,
     pink = 14,
-    light_peach = 15 
+    light_peach = 15,
+    brownish_black = 128,
+    darker_blue = 129,
+    darker_puple = 130,
+    blue_green = 131,
+    dark_brown = 132,
+    darker_grey = 133,
+    medium_grey = 134,
+    light_yellow = 135,
+    dark_red = 136,
+    dark_orange = 137,
+    lime_green = 138,
+    medium_green = 139,
+    true_blue = 140,
+    mauve = 141,
+    dark_peach = 142,
+    peach = 143 
 }
 
 screen = {
