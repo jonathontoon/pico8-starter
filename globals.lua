@@ -2,7 +2,7 @@
     globals
 ]]--
 
-button = {
+buttons = {
     left = 0,
     right = 1,
     up = 2,
@@ -12,7 +12,7 @@ button = {
     pause = 6
 }
 
-color = {
+colors = {
     black = 0,
     dark_blue = 1,
     dark_purple = 2,
